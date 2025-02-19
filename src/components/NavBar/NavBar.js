@@ -16,7 +16,12 @@ const NavBar = () => {
           <div className="col col-12 col-xl-4 col-lg-4 col-md-12 col-sm-12">
             <ul className="top-menu">
               <li>
-                <a href="#home">Home</a>
+                <a
+                  href="#home"
+                  className="active"
+                >
+                  Home
+                </a>
               </li>
               <li>
                 <a href="#game">Game</a>

@@ -27,12 +27,13 @@
                     }
                     > a {
                         padding: 5px;
-                        color: var(--color-2);
+                        color: var(--color-4);
                         font-size: 14px;
                         font-weight: 600;
                         &:hover,
                         &:active,
-                        &:focus {
+                        &:focus,
+                        &.active {
                             color: var(--color-1);
                         }
                     }

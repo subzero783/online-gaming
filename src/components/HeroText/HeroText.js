@@ -1,3 +1,5 @@
+import "./HeroText.scss";
+
 const HeroText = () => {
   return (
     <div className="hero-text container">
